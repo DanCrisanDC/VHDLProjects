@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sun May 08 23:49:37 2016
+# Process ID: 1136
+# Log file: C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/pa.fromNetlist.tcl}
+# create_project -name PWM_NOU -dir "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_3" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.ngc" [ get_property srcset [ current_run ] ]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled

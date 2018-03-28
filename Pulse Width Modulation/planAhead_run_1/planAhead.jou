@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sun May 08 23:49:37 2016
+# Process ID: 1136
+# Log file: C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/pa.fromNetlist.tcl}

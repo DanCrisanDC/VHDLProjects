@@ -1,0 +1,20 @@
+ NET "CLK" loc=V10; 
+NET "SEL" loc=T5; 
+NET "R" loc=B8; 
+
+NET "LED(7)" loc=T11;
+NET "LED(6)" loc=R11;
+NET "LED(5)" loc=N11;
+NET "LED(4)" loc=M11;
+NET "LED(3)" loc=V15;
+NET "LED(2)" loc=U15;
+NET "LED(1)" loc=V16;
+NET "LED(0)" loc=U16;
+ 
+NET "INPUT(6)" loc=V8;   
+NET "INPUT(5)" loc=U8;   
+NET "INPUT(4)" loc=N8;   
+NET "INPUT(3)" loc=M8;   
+NET "INPUT(2)" loc=V9;   
+NET "INPUT(1)" loc=T9;  
+NET "INPUT(0)" loc=T10;

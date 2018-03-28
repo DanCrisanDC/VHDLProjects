@@ -1,0 +1,136 @@
+V3 71
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/AUTOMAT.vhd" 2016/05/09.13:29:02 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/BistabilT.vhd" 2016/05/08.19:44:46 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/BistabilTC.vhd" 2016/05/08.19:44:45 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/Comparator.vhd" 2016/05/08.19:44:46 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/COUNTER7.vhd" 2016/05/08.19:44:45 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/DIV0_4.vhd" 2016/05/08.19:44:45 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/DIV_1HZ.vhd" 2016/05/09.00:09:05 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/Div_Special.vhd" 2016/05/08.20:51:33 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/DMUX1_2.vhd" 2016/05/08.19:44:45 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/MANUAL.vhd" 2016/05/08.19:44:46 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/MUX2_1.vhd" 2016/05/08.19:44:45 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/MUX7.vhd" 2016/05/08.19:44:45 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/registru.vhd" 2016/05/08.19:44:46 P.49d
+FL "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.vhd" 2016/05/09.15:35:05 P.49d
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/AUTOMAT.vhd" 2016/05/11.19:09:58 P.49d
+EN work/Automat 1462983849 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/AUTOMAT.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/automat/Automat_a 1462983850 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/AUTOMAT.vhd" \
+      EN work/Automat 1462983849 CP DMUX1_2 CP Div_1hz CP Div0_4 CP MUX2_1 \
+      CP counter8 CP MUX7 CP Div_Special CP registru CP Comparator
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/BistabilT.vhd" 2016/05/08.19:44:46 P.49d
+EN work/BistabilT 1462919190 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/BistabilT.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/BistabilT/BistabilT_a 1462919191 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/BistabilT.vhd" \
+      EN work/BistabilT 1462919190
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/BistabilTC.vhd" 2016/05/08.19:44:45 P.49d
+EN work/BistabilTC 1462919188 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/BistabilTC.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/BistabilTC/BistabilTC_a 1462919189 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/BistabilTC.vhd" \
+      EN work/BistabilTC 1462919188
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/Comparator.vhd" 2016/05/08.19:44:46 P.49d
+EN work/comparator 1462983835 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/Comparator.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/comparator/comparator_a 1462983836 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/Comparator.vhd" \
+      EN work/comparator 1462983835
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/COUNTER7.vhd" 2016/05/11.19:20:24 P.49d
+EN work/counter7 1462983831 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/COUNTER7.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/counter7/counter7_a 1462983832 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/COUNTER7.vhd" \
+      EN work/counter7 1462983831
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/COUNTER8.vhd" 2016/05/11.19:09:58 P.49d
+EN work/counter8 1462983845 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/COUNTER8.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/counter8/counter8_a 1462983846 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/COUNTER8.vhd" \
+      EN work/counter8 1462983845
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DIV0_4.vhd" 2016/05/08.19:44:45 P.49d
+EN work/Div0_4 1462983841 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DIV0_4.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/Div0_4/Div0_4_A 1462983842 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DIV0_4.vhd" \
+      EN work/Div0_4 1462983841
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DIV_1HZ.vhd" 2016/05/09.00:09:05 P.49d
+EN work/Div_1hz 1462983839 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DIV_1HZ.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/Div_1hz/Div_1hz_A 1462983840 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DIV_1HZ.vhd" \
+      EN work/Div_1hz 1462983839
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/Div_Special.vhd" 2016/05/08.20:51:33 P.49d
+EN work/Div_Special 1462983829 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/Div_Special.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/Div_Special/Div_Special_A 1462983830 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/Div_Special.vhd" \
+      EN work/Div_Special 1462983829
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DMUX1_2.vhd" 2016/05/08.19:44:45 P.49d
+EN work/DMUX1_2 1462983837 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DMUX1_2.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/DMUX1_2/DMUX1_2_a 1462983838 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/DMUX1_2.vhd" \
+      EN work/DMUX1_2 1462983837
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MANUAL.vhd" 2016/05/11.19:09:58 P.49d
+EN work/manual 1462983851 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MANUAL.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/manual/manual_a 1462983852 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MANUAL.vhd" \
+      EN work/manual 1462983851 CP Div_Special CP counter7 CP registru CP Comparator
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MUX2_1.vhd" 2016/05/08.19:44:45 P.49d
+EN work/MUX2_1 1462983843 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MUX2_1.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/MUX2_1/MUX2_1_a 1462983844 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MUX2_1.vhd" \
+      EN work/MUX2_1 1462983843
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MUX7.vhd" 2016/05/08.19:44:45 P.49d
+EN work/MUX7 1462983847 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MUX7.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/MUX7/MUX7_a 1462983848 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/MUX7.vhd" \
+      EN work/MUX7 1462983847
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/registru.vhd" 2016/05/08.19:44:46 P.49d
+EN work/registru 1462983833 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/registru.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/registru/registru_a 1462983834 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/registru.vhd" \
+      EN work/registru 1462983833
+FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.vhd" 2016/05/09.15:35:05 P.49d
+EN work/TOP_LEVEL 1462983853 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/TOP_LEVEL/A1 1462983854 \
+      FL "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.vhd" \
+      EN work/TOP_LEVEL 1462983853 CP DMUX1_2 CP automat CP manual CP MUX2_1

@@ -1,0 +1,213 @@
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc3s100e-cp132-4 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+xst -intstyle ise -ifn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.xst" -ofn "C:/Users/dan/Desktop/VERY SAFE COPY OF PWM PROJECT/TOP_LEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP_LEVEL.ucf -p xc6slx16-csg324-3 "TOP_LEVEL.ngc" TOP_LEVEL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_LEVEL_map.ncd TOP_LEVEL.ngd TOP_LEVEL.pcf 
+par -w -intstyle ise -ol high -mt off TOP_LEVEL_map.ncd TOP_LEVEL.ncd TOP_LEVEL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP_LEVEL.twx TOP_LEVEL.ncd -o TOP_LEVEL.twr TOP_LEVEL.pcf -ucf TOP_LEVEL.ucf 
+bitgen -intstyle ise -f TOP_LEVEL.ut TOP_LEVEL.ncd 

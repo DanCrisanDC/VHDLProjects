@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sun May 08 23:49:38 2016
+# Process ID: 11640
+# Log file: C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/pa.fromNetlist.tcl}
+# create_project -name PWM_NOU -dir "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/planAhead_run_3" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/dan/Desktop/Dan/New folder/PWM_NOU} }
+# set_property target_constrs_file "TOP_LEVEL.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.ucf' to fileset 'constrs_1'
+# add_files [list {TOP_LEVEL.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.4 - ngc2edif P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design TOP_LEVEL.ngc ...
+WARNING:NetListWriters:298 - No output is written to TOP_LEVEL.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file TOP_LEVEL.edif ...
+ngc2edif: Total memory usage is 84604 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/PWM_NOU.data/cache/TOP_LEVEL_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/PWM_NOU.data/cache/TOP_LEVEL_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from D:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from D:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from D:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.ucf]
+Finished Parsing UCF File [C:/Users/dan/Desktop/Dan/New folder/PWM_NOU/TOP_LEVEL.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 6a441056
+link_design: Time (s): elapsed = 00:00:23 . Memory (MB): peak = 551.438 ; gain = 130.879
